@@ -1,4 +1,7 @@
 {
   "item.makingrandoms.obamium": "Obamium Ingot",
-  "item.makingrandoms.raw_obamium": "Chunk of Obamium"
+  "item.makingrandoms.raw_obamium": "Chunk of Obamium",
+
+  "block.makingrandoms.obamium_prism": "Obamium Prism",
+  "block.makingrandoms.obamium_ore": "Obamium Ore"
 }

@@ -1,5 +1,6 @@
 package com.makingrandoms;
 
+import com.makingrandoms.block.ModBlocks;
 import com.makingrandoms.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,7 +36,8 @@ public class Makingrandoms {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModItems.ITEMS.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -53,6 +55,10 @@ public class Makingrandoms {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.OBAMIUM);
             event.accept(ModItems.RAW_OBAMIUM);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.OBAMIUM_PRISM);
+            event.accept(ModBlocks.OBAMIUM_ORE);
         }
     }
 
