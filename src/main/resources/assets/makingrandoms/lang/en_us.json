@@ -3,5 +3,8 @@
   "item.makingrandoms.raw_obamium": "Chunk of Obamium",
 
   "block.makingrandoms.obamium_prism": "Obamium Prism",
-  "block.makingrandoms.obamium_ore": "Obamium Ore"
+  "block.makingrandoms.obamium_ore": "Obamium Ore",
+
+  "creativetab.makingrandoms.obamium_items": "Obamium Items",
+  "creativetab.makingrandoms.obamium_blocks": "Obamium Blocks"
 }

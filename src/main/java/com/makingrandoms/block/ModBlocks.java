@@ -2,9 +2,11 @@ package com.makingrandoms.block;
 
 import com.makingrandoms.Makingrandoms;
 import com.makingrandoms.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +16,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
+
+
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Makingrandoms.MOD_ID);
@@ -21,7 +25,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> OBAMIUM_PRISM = registerBlock("obamium_prism", () -> new Block(
             BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.FROGLIGHT)));
 
-    public static final RegistryObject<Block> OBAMIUM_ORE = registerBlock("obamium_ore", () -> new Block(
+    public static final RegistryObject<Block> OBAMIUM_ORE = registerBlock("obamium_ore", () -> new DropExperienceBlock(
+            UniformInt.of(2,4),
             BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

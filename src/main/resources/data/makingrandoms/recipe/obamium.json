@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "makingrandoms:obamium_prism"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "makingrandoms:obamium"
+  }
+}
