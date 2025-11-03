@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.OBAMIUM.get());
                         output.accept(ModItems.RAW_OBAMIUM.get());
+                        output.accept(ModItems.MAGIC_WAND.get());
+                        output.accept(ModItems.HOTDOG.get());
+                        output.accept(ModItems.JET_FUEL.get());
                     })
                     .build());
 
@@ -32,6 +35,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.OBAMIUM_PRISM.get());
                         output.accept(ModBlocks.OBAMIUM_ORE.get());
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
                     })
                     .build());
 

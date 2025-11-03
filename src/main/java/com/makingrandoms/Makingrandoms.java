@@ -3,6 +3,7 @@ package com.makingrandoms;
 import com.makingrandoms.block.ModBlocks;
 import com.makingrandoms.item.ModCreativeModeTabs;
 import com.makingrandoms.item.ModItems;
+import com.makingrandoms.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -41,6 +42,7 @@ public class Makingrandoms {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

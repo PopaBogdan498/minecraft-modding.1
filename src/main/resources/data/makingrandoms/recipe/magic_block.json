@@ -4,15 +4,39 @@
   "key": {
     "O": {
       "item": "makingrandoms:obamium"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
-    "OOO",
-    "OOO",
-    "OOO"
+    "NDE",
+    "ISG",
+    "ROL"
   ],
   "result": {
     "count": 1,
-    "id": "makingrandoms:obamium_prism"
+    "id": "makingrandoms:magic_block"
   }
 }

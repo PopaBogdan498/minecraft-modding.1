@@ -1,0 +1,48 @@
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set 1000
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode c
+/gamemode creative
+/set time 1000
+/time set 1000
+/kill @e
+/gamemode s
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamerule
+/gamemode creative
+/time set 1000
+/gamemode
+/gamemode survival
+/give @s minecraft:diamond_pickaxe 1
+/give @s minecraft:stick 2
+/gamemode creative
+/gamemode survival
+/give @s minecraft:stick 2
+/gamemode creative
+/time set 1000
+/gamemode s
+/gamemode spectator
+/gamemode s
+/gamemode survival
+/give @s minecraft:iron_pickaxe
+/give @s minecraft:diamond_pickaxe
+/give @s
+/give @s makingrandoms:magic_block 154
+/gamemode c
+/gamemode creative
+/gamemode s
+/gamemode survival
+/give @s axe
+/give @s minecraft:diamond_axe
+/give @s makingrandoms:magic_wand 2
+/time set day
+/give @s minecraft:netherite_block 64
+/gamemode creative

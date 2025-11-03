@@ -1,10 +1,19 @@
 {
   "item.makingrandoms.obamium": "Obamium Ingot",
   "item.makingrandoms.raw_obamium": "Chunk of Obamium",
+  "item.makingrandoms.magic_wand": "Magic Wand",
+  "item.makingrandoms.hotdog": "Hotdog",
+  "item.makingrandoms.jet_fuel": "Jet Fuel",
 
   "block.makingrandoms.obamium_prism": "Obamium Prism",
   "block.makingrandoms.obamium_ore": "Obamium Ore",
+  "block.makingrandoms.magic_block": "Magic Block",
 
   "creativetab.makingrandoms.obamium_items": "Obamium Items",
-  "creativetab.makingrandoms.obamium_blocks": "Obamium Blocks"
+  "creativetab.makingrandoms.obamium_blocks": "Obamium Blocks",
+
+  "tooltip.makingrandoms.magic_block.tooltip": "Used to transform a §5Magic Wand§r back into §eObamium Ingots§r",
+  "tooltip.makingrandoms.magic_wand.shift_down": "Used to obtain more §eObamium§r",
+  "tooltip.makingrandoms.magic_wand": "Press §6SHIFT§r for more details",
+  "tooltip.makingrandoms.hotdog": "Be careful with the §cFAT§r!"
 }

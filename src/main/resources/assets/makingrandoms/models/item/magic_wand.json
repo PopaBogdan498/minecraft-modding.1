@@ -1,3 +1,6 @@
 {
-  "parent": "makingrandoms:block/obamium_ore"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "makingrandoms:item/magic_wand"
+  }
 }

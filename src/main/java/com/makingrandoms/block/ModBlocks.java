@@ -1,6 +1,7 @@
 package com.makingrandoms.block;
 
 import com.makingrandoms.Makingrandoms;
+import com.makingrandoms.block.custom.MagicBlock;
 import com.makingrandoms.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -28,6 +29,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> OBAMIUM_ORE = registerBlock("obamium_ore", () -> new DropExperienceBlock(
             UniformInt.of(2,4),
             BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block", () -> new MagicBlock(
+            BlockBehaviour.Properties.of().strength(2f).sound(SoundType.BAMBOO)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

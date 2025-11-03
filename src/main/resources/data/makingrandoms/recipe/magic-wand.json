@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "makingrandoms:obamium"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " OO",
+    " SO",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "makingrandoms:magic_wand"
+  }
+}

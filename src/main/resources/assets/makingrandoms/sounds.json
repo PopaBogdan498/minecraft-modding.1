@@ -1,0 +1,8 @@
+{
+  "magic_wand_use":{
+    "subtitle": "sounds.makingrandoms.magic_wand_use",
+    "sounds": [
+      "makingrandoms:magic_wand_use"
+    ]
+  }
+}
