@@ -1,8 +1,3 @@
-/time set day
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/time set 1000
 /gamemode creative
 /gamemode survival
 /gamemode creative
@@ -45,4 +40,11 @@
 /give @s makingrandoms:magic_wand 2
 /time set day
 /give @s minecraft:netherite_block 64
+/gamemode creative
+/gamemode survival
+/give @s minecraft:iron_pickaxe 2
+/gamemode creative
+/time set 1000
+/gamemode s
+/gamemode survival
 /gamemode creative
