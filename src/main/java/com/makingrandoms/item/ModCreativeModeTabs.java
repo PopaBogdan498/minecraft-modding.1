@@ -24,6 +24,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MAGIC_WAND.get());
                         output.accept(ModItems.HOTDOG.get());
                         output.accept(ModItems.JET_FUEL.get());
+                        output.accept(ModItems.OBAMIUM_SWORD.get());
+                        output.accept(ModItems.OBAMIUM_PICKAXE.get());
+                        output.accept(ModItems.OBAMIUM_SHOVEL.get());
+                        output.accept(ModItems.OBAMIUM_AXE.get());
+                        output.accept(ModItems.OBAMIUM_HOE.get());
                     })
                     .build());
 
@@ -35,7 +40,17 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.OBAMIUM_PRISM.get());
                         output.accept(ModBlocks.OBAMIUM_ORE.get());
+                        output.accept(ModBlocks.OBAMIUM_STAIRS.get());
+                        output.accept(ModBlocks.OBAMIUM_SLAB.get());
+                        output.accept(ModBlocks.OBAMIUM_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.OBAMIUM_BUTTON.get());
+                        output.accept(ModBlocks.OBAMIUM_FENCE.get());
+                        output.accept(ModBlocks.OBAMIUM_GATE.get());
+                        output.accept(ModBlocks.OBAMIUM_WALL.get());
+                        output.accept(ModBlocks.OBAMIUM_DOOR.get());
+                        output.accept(ModBlocks.OBAMIUM_TRAPDOOR.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModBlocks.PAPER_LANTERN.get());
                     })
                     .build());
 

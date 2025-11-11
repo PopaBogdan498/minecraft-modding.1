@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "makingrandoms:block/paper_lantern_on"
+  }
+}

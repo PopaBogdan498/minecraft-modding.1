@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "obamium",
+  "key": {
+    "#": {
+      "item": "makingrandoms:obamium"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "makingrandoms:obamium_stairs"
+  }
+}

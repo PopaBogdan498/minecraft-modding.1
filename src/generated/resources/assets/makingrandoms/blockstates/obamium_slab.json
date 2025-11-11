@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "makingrandoms:block/obamium_slab"
+    },
+    "type=double": {
+      "model": "makingrandoms:block/obamium_prism"
+    },
+    "type=top": {
+      "model": "makingrandoms:block/obamium_slab_top"
+    }
+  }
+}

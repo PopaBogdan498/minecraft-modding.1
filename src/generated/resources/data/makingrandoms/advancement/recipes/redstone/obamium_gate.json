@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obamium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "makingrandoms:obamium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "makingrandoms:obamium_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obamium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "makingrandoms:obamium_gate"
+    ]
+  }
+}

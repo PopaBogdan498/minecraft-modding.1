@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PTP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "makingrandoms:paper_lantern"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "obamium",
+  "key": {
+    "#": {
+      "item": "makingrandoms:obamium"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "makingrandoms:obamium_door"
+  }
+}

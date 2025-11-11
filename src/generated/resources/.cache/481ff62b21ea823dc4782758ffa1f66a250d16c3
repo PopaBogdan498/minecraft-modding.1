@@ -1,0 +1,9 @@
+// 1.21	2025-11-11T13:44:56.5560707	Tags for minecraft:block mod id makingrandoms
+edb717ba8ce70db0f1c3d09fbaab29aed6d4e5ff data/makingrandoms/tags/block/incorrect_for_obamium_tool.json
+df9722b409999606d1ede3c97b932f0bc66ee3ec data/makingrandoms/tags/block/needs_obamium_tool.json
+302ccdff78be39773581a125dc8aad19accf8bf6 data/minecraft/tags/block/fences.json
+b552c6d5446889ce44fb0c51ab34e4802ada0509 data/minecraft/tags/block/fence_gates.json
+2d7227908cb568a1b4d7cb97f795175eb1917024 data/minecraft/tags/block/mineable/pickaxe.json
+6979443e748eae33250e313ae7a90634c20a3118 data/minecraft/tags/block/needs_diamond_tool.json
+ffa648a50738284298f7e7f8a8ced883087cec50 data/minecraft/tags/block/needs_iron_tool.json
+5dd4a511461ac1e45f405b9af09a26d930a84ac4 data/minecraft/tags/block/walls.json

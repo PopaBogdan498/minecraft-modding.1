@@ -1,29 +1,3 @@
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode c
-/gamemode creative
-/set time 1000
-/time set 1000
-/kill @e
-/gamemode s
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamerule
-/gamemode creative
-/time set 1000
-/gamemode
-/gamemode survival
-/give @s minecraft:diamond_pickaxe 1
-/give @s minecraft:stick 2
-/gamemode creative
-/gamemode survival
-/give @s minecraft:stick 2
-/gamemode creative
-/time set 1000
-/gamemode s
 /gamemode spectator
 /gamemode s
 /gamemode survival
@@ -48,3 +22,29 @@
 /gamemode s
 /gamemode survival
 /gamemode creative
+/reload
+/gamemode s
+/time set 1000
+/kill @e
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/weather clear
+/effect give @s minecraft:hunger
+/gamemode creative
+/gamemode s
+/gamemode survival
+/give @s minecraft:netherite_block 13
+/give @s minecraft:crying_obsidian 5
+/clear inventory
+/clear
+/gamemode creative
+/time set 0
+/time set 10000
+/time set 1000
+/time set 1000t
+/time set 1000s
+/gamemode survival
+/give @s makingrandoms:hotdog
+/give @s minecraft:obsidian
+/summon minecraft:zombie

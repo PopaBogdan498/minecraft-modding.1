@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "makingrandoms:block/paper_lantern_off"
+    },
+    "clicked=true": {
+      "model": "makingrandoms:block/paper_lantern_on"
+    }
+  }
+}

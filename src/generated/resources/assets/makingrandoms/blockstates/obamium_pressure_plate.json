@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "makingrandoms:block/obamium_pressure_plate"
+    },
+    "powered=true": {
+      "model": "makingrandoms:block/obamium_pressure_plate_down"
+    }
+  }
+}

@@ -2,6 +2,7 @@ package com.makingrandoms.block.custom;
 
 import com.makingrandoms.block.ModBlocks;
 import com.makingrandoms.item.ModItems;
+import com.makingrandoms.util.Modtags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -32,11 +33,15 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == ModItems.MAGIC_WAND.get()) {
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(ModItems.OBAMIUM.get(), itemEntity.getItem().getCount()*3));
             }
         }
         super.stepOn(pLevel, pPos, pState, pEntity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(Modtags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override

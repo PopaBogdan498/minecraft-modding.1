@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "makingrandoms:block/obamium_prism"
+  }
+}

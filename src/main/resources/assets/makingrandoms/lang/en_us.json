@@ -4,10 +4,27 @@
   "item.makingrandoms.magic_wand": "Magic Wand",
   "item.makingrandoms.hotdog": "Hotdog",
   "item.makingrandoms.jet_fuel": "Jet Fuel",
+  "item.makingrandoms.obamium_sword": "Obamium Sword",
+  "item.makingrandoms.obamium_axe": "Obamium Axe",
+  "item.makingrandoms.obamium_hoe": "Obamium Hoe",
+  "item.makingrandoms.obamium_pickaxe": "Obamium Pickaxe",
+  "item.makingrandoms.obamium_shovel": "Obamium Shovel",
+
+
 
   "block.makingrandoms.obamium_prism": "Obamium Prism",
   "block.makingrandoms.obamium_ore": "Obamium Ore",
   "block.makingrandoms.magic_block": "Magic Block",
+  "block.makingrandoms.obamium_stairs": "Obamium Stairs",
+  "block.makingrandoms.obamium_slab": "Obamium Slab",
+  "block.makingrandoms.obamium_pressure_plate": "Obamium Pressure Plate",
+  "block.makingrandoms.obamium_button": "Obamium Button",
+  "block.makingrandoms.obamium_fence": "Obamium Fence",
+  "block.makingrandoms.obamium_gate": "Obamium Fence Gate",
+  "block.makingrandoms.obamium_wall": "Obamium Wall",
+  "block.makingrandoms.obamium_door": "Obamium Door",
+  "block.makingrandoms.obamium_trapdoor": "Obamium Trapdoor",
+  "block.makingrandoms.paper_lantern": "Paper Lantern",
 
   "creativetab.makingrandoms.obamium_items": "Obamium Items",
   "creativetab.makingrandoms.obamium_blocks": "Obamium Blocks",

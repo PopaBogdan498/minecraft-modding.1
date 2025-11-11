@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "makingrandoms:block/obamium_prism"
+  }
+}
